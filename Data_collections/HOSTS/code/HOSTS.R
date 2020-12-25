@@ -11,7 +11,7 @@ retry <- 5
 sleep <- 5
 
 page_list <- seq(0,140460,by = 30)
-page_list <- page_list[1:5]
+#page_list <- page_list[1:5]
 log_cont <- data.frame(page = 0, message = "")
 log_cont <- log_cont[-1,]
 
