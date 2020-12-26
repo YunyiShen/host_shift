@@ -16,7 +16,7 @@ log_cont <- data.frame(page = 0, message = "")
 log_cont <- log_cont[-1,]
 
 for(p in page_list){
-  cat("start page:",p,"\n")
+  cat("start page:",p,"/ 140460\n")
   curr_url <- sub("<page>",p,base_url)
   
   for(i in 1:retry){
